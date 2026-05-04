@@ -12,6 +12,13 @@ Before starting, ensure you have an NVIDIA GPU for real-time performance.
 
 ## Screenshots
 
+
+
+https://github.com/user-attachments/assets/779bc1ab-985b-4b9e-b9ec-3163556f439d
+
+
+
+<hr>
 <img width="1657" height="927" alt="computer vision" src="https://github.com/user-attachments/assets/33cef39c-4131-45cf-a884-6b47459d6a0c" />
 <hr>
 
