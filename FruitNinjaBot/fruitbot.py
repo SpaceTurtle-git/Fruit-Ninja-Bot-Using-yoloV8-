@@ -7,7 +7,7 @@ import time
 import mss 
 import torch
 import threading
-
+import os
 
 # GPU or CPU
 if torch.cuda.is_available():
@@ -19,7 +19,8 @@ else:
 
 
 # ===== CONFIG =====
-model_path = r"C:\Users\rockf\Documents\dumbshi\goon_data\yolov8 v2\runs\detect\train\weights\best.pt"
+script_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(script_dir, "models", "best.pt")
 bot = YOLO(model_path)
 sct = mss.mss()
 top_right,top_left,width,height = 0,0,1280,720
